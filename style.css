@@ -48,27 +48,23 @@ nav a {
     padding-bottom: 16px;
 
 }
+
+.projects{
+    margin-left: 10px;
+}
+
 .aboutme{
-    margin-left:10px;
-    display:inline-block;
+    margin-left: 10px;
 }
-.projects {
-    display: inline-block;
-    margin-left:10px;
-}
+
 .projectbuttons{
     text-align: center;
     display: flex;
     gap: 45px;
     justify-content: center;
 }
-.skills {
-    display: inline-block;
-    margin-left:10px;
-}
 .contact{
     margin-left: 10px;
-    display:inline;
     text-align: center;
     margin: 0 auto;
 }
@@ -84,4 +80,50 @@ button{
 button:hover{
     background-color:#1f291e;
     cursor: pointer;
+}
+
+.skills{
+    margin-left: 10px;
+}
+.skillicons{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+}
+
+.icons {
+    height: 50px;
+    width: 50px;
+    display:flex;
+}
+
+img:hover{
+    border: 2px solid green;
+}
+#nocerticons{
+    height: 50px;
+    width: 50px;
+    display:flex;
+    border: none;
+}
+h5{
+    font-style: italic;
+}
+
+#contacticon{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    border: none;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footericons{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
 }
